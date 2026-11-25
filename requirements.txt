@@ -1,0 +1,25 @@
+# Tableau de bord de la courbe des taux BDT
+# Installation : pip install -r requirements.txt
+
+# Application (Dash 4 : sélecteurs de dates, listes déroulantes et champs numériques)
+dash>=4.0
+plotly>=6.0
+
+# Données et calcul
+pandas>=2.2
+numpy>=2.0
+scipy>=1.13
+statsmodels>=0.14
+python-dateutil>=2.9
+
+# Fichiers Excel : .xlsx (lecture et export) et .xls (export de valorisation)
+openpyxl>=3.1
+xlrd>=2.0
+
+# Base Manar (Oracle, mode « thin » : aucun client Oracle à installer)
+oracledb>=2.0
+
+# Téléchargement de la courbe BKAM (Courbe.py)
+requests>=2.31
+beautifulsoup4>=4.12
+pyjanitor>=0.27
